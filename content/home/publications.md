@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: collection
+widget: portfolio
 
 # This file represents a page section.
 headless: true
@@ -9,10 +9,26 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
 content:
+  # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  filter_default: 0
+
+  # Filter toolbar (optional).
+  # Add or remove as many filters (`filter_button` instances) as you like.
+  # To show all items, set `tag` to "*".
+  # To filter by a specific tag, set `tag` to an existing tag name.
+  # To remove the toolbar, delete the entire `filter_button` block.
+  filter_button:
+    - name: All
+      tag: '*'
+    - name: Journal article
+      tag: Journal article
+    - name: Conference paper
+      tag: Conference paper
+      
   # Filter on criteria
   filters:
     folders:
@@ -36,6 +52,6 @@ design:
   columns: '2'
 ---
 
-{{% callout note %}}
+<!--{{% callout note %}}
 Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+{{% /callout %}}-->

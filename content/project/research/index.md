@@ -1,31 +1,3 @@
----
-# An instance of the Portfolio widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: blank
-
-# This file represents a page section.
-headless: true
-active: true
-# Order that this section appears on the page.
-weight: 65
-
-title: Research Projects
-subtitle: ''
-  
-design:
-  # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
-
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   5 = Showcase
-  view: 5
-
-  # For Showcase view, flip alternate rows?
-  flip_alt_rows: false
----
 ### <span style="color:#6495ED"> Scalable Control Synthesis for Multi-Robot Systems under Temporal Logic Specifications
 
 

@@ -11,7 +11,7 @@ weight: 66
 
 title: Gallery
 subtitle:
-
+active: false
 design:
   columns: '1'
 ---
