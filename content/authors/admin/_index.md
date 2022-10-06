@@ -24,7 +24,8 @@ bio: My research interests include control and optimization with application to 
 interests:
 - Robotics
 - Task and Motion Planning
-- Formal Verification and Control Synthesis
+- Control and Optimization
+- Formal Methods
 - Artificial Intelligence
 
 # Education to show in About widget
